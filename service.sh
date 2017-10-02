@@ -8,9 +8,12 @@ dev_build() {
 }
 
 dev_run() {
-  # Do what you need to run your app in the foreground
-  # e.g. java -jar target/magic.jar $*
-  java -jar target/bus-route-challenge-*.jar data/example
+  if [ $# -gt 0 ]
+   then
+        java -jar target/bus-route-challenge-*.jar $*
+   else
+        java -jar target/bus-route-challenge-*.jar data/example
+  fi
 }
 
 dev_smoke() {

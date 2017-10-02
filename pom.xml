@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.goeuro.challenge</groupId>
-  <artifactId>bus-route-challege</artifactId>
+  <artifactId>bus-route-challenge</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Bus Route Challenge</name>
   <description>Implementation for Bus Route Challenge</description>
@@ -67,7 +67,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
 
